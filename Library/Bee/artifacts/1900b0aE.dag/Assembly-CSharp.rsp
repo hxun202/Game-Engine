@@ -412,6 +412,7 @@
 "Assets/Class2th (Script)/Scenes/Exceution.cs"
 "Assets/Class2th (Script)/Scenes/NewMonoBehaviourScript.cs"
 "Assets/Class2th (Script)/Scenes/Scripts/NewMonoBehaviourScript.cs"
+"Assets/Class3th (User Interface)/Scripts/MainMenu.cs"
 -langversion:9.0
 /deterministic
 /optimize+
