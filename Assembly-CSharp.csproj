@@ -65,6 +65,7 @@
     <Compile Include="Assets\Class2th (Script)\Scenes\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\Class2th (Script)\Scenes\Scripts\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\Class3th (User Interface)\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Class4th (Animation)\Scripts\Axe.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Class2th (Script)\Zombie\URP\URP Note.txt" />
