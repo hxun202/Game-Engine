@@ -414,6 +414,7 @@
 "Assets/Class2th (Script)/Scenes/Scripts/NewMonoBehaviourScript.cs"
 "Assets/Class3th (User Interface)/Scripts/MainMenu.cs"
 "Assets/Class4th (Animation)/Scripts/Axe.cs"
+"Assets/Class5th (Animator Controller)/Scripts/Animator Manager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
