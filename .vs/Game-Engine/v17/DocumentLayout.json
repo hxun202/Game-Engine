@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A7D3D909-69C9-CFB6-12D9-00D460408597}|Assembly-CSharp.csproj|solutionrelative:assets\\class5th (animator controller)\\scripts\\animator manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D3D909-69C9-CFB6-12D9-00D460408597}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\assets\\class4th (animation)\\scripts\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7D3D909-69C9-CFB6-12D9-00D460408597}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Game-Engine\\assets\\class4th (animation)\\scripts\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D3D909-69C9-CFB6-12D9-00D460408597}|Assembly-CSharp.csproj|solutionrelative:assets\\class4th (animation)\\scripts\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Class5th (Animator Controller)\\Scripts\\Animator Manager.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Assets\\Class5th (Animator Controller)\\Scripts\\Animator Manager.cs",
               "RelativeToolTip": "Assets\\Class5th (Animator Controller)\\Scripts\\Animator Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T11:06:19.978Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Assets\\Class4th (Animation)\\Scripts\\Axe.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T11:13:34.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T11:13:34.219Z"
             },
             {
               "$type": "Document",
