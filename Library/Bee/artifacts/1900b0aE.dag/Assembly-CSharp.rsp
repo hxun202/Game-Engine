@@ -132,6 +132,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
@@ -415,6 +416,7 @@
 "Assets/Class3th (User Interface)/Scripts/MainMenu.cs"
 "Assets/Class4th (Animation)/Scripts/Axe.cs"
 "Assets/Class5th (Animator Controller)/Scripts/Animator Manager.cs"
+"Assets/Class6th (Input System)/Scripts/Character.cs"
 -langversion:9.0
 /deterministic
 /optimize+
