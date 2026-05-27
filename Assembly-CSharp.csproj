@@ -70,6 +70,7 @@
     <Compile Include="Assets\Class4th (Animation)\Scripts\Axe.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Class6th (Input System)\Textures\Readme for Assigning.txt" />
     <None Include="Assets\Class2th (Script)\Zombie\URP\URP Note.txt" />
   </ItemGroup>
   <ItemGroup>
