@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7D3D909-69C9-CFB6-12D9-00D460408597}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\assets\\class8th (physics system)\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D3D909-69C9-CFB6-12D9-00D460408597}|Assembly-CSharp.csproj|solutionrelative:assets\\class8th (physics system)\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7D3D909-69C9-CFB6-12D9-00D460408597}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\game-engine\\assets\\class6th (input system)\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D3D909-69C9-CFB6-12D9-00D460408597}|Assembly-CSharp.csproj|solutionrelative:assets\\class6th (input system)\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Assets\\Class8th (Physics System)\\Scripts\\Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Class8th (Physics System)\\Scripts\\Controller.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Assets\\Class8th (Physics System)\\Scripts\\Controller.cs",
+              "RelativeToolTip": "Assets\\Class8th (Physics System)\\Scripts\\Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T12:36:55.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Assets\\Class6th (Input System)\\Scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Class6th (Input System)\\Scripts\\Character.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Animator Manager.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Assets\\Class5th (Animator Controller)\\Scripts\\Animator Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Class5th (Animator Controller)\\Scripts\\Animator Manager.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Axe.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Assets\\Class4th (Animation)\\Scripts\\Axe.cs",
               "RelativeDocumentMoniker": "Assets\\Class4th (Animation)\\Scripts\\Axe.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game-Engine\\Assets\\Class3th (User Interface)\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Class3th (User Interface)\\Scripts\\MainMenu.cs",

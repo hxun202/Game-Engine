@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Class2th (Script)\Scenes\Exceution.cs" />
+    <Compile Include="Assets\Class8th (Physics System)\Scripts\Controller.cs" />
     <Compile Include="Assets\Class2th (Script)\Scenes\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\Class2th (Script)\Scenes\Scripts\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\Class6th (Input System)\Scripts\Character.cs" />
@@ -72,6 +73,7 @@
   <ItemGroup>
     <None Include="Assets\Class6th (Input System)\Textures\Readme for Assigning.txt" />
     <None Include="Assets\Class2th (Script)\Zombie\URP\URP Note.txt" />
+    <None Include="Assets\Class8th (Physics System)\GolfAssets\Shaders\Glass.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
