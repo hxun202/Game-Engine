@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Class2th (Script)\Scenes\Exceution.cs" />
     <Compile Include="Assets\Class8th (Physics System)\Scripts\Controller.cs" />
+    <Compile Include="Assets\Class8th (Physics System)\Scripts\Sensor.cs" />
     <Compile Include="Assets\Class2th (Script)\Scenes\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\Class2th (Script)\Scenes\Scripts\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\Class6th (Input System)\Scripts\Character.cs" />

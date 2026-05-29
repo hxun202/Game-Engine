@@ -418,6 +418,7 @@
 "Assets/Class5th (Animator Controller)/Scripts/Animator Manager.cs"
 "Assets/Class6th (Input System)/Scripts/Character.cs"
 "Assets/Class8th (Physics System)/Scripts/Controller.cs"
+"Assets/Class8th (Physics System)/Scripts/Sensor.cs"
 -langversion:9.0
 /deterministic
 /optimize+
