@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class9th (Coroutine)/Scenes/Class9th (Coroutine).unity
+- path: Assets/Class10th (Sound System)/Scenes/Classs10th (Sound System).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

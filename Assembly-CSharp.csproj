@@ -67,6 +67,7 @@
     <Compile Include="Assets\Class2th (Script)\Scenes\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\Class2th (Script)\Scenes\Scripts\NewMonoBehaviourScript.cs" />
     <Compile Include="Assets\Class9th (Coroutine)\Scripts\Create Manager.cs" />
+    <Compile Include="Assets\Class10th (Sound System)\Scripts\Interaction.cs" />
     <Compile Include="Assets\Class6th (Input System)\Scripts\Character.cs" />
     <Compile Include="Assets\Class5th (Animator Controller)\Scripts\Animator Manager.cs" />
     <Compile Include="Assets\Class3th (User Interface)\Scripts\MainMenu.cs" />

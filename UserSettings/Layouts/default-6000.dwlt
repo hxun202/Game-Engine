@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 95
+  controlID: 119
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 361
     height: 558
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 96
+  controlID: 39
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 20
+  controlID: 40
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -273,13 +273,13 @@ MonoBehaviour:
     height: 558
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -720,7 +720,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Class9th (Coroutine)/Tree Monster/Prefabs
+    - Assets/Class9th (Coroutine)/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -730,39 +730,48 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Class9th (Coroutine)/Tree Monster/Prefabs
+  - Assets/Class9th (Coroutine)/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Administrator\Desktop\Game-Engine
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 83}
+    scrollPos: {x: 0, y: 35}
     m_SelectedIDs:
-    - m_Data: 25358
+    - m_Data: 23934
     m_LastClickedID:
-      m_Data: 25358
+      m_Data: 23934
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 24294
-    - m_Data: 24296
-    - m_Data: 24298
-    - m_Data: 24300
-    - m_Data: 24302
-    - m_Data: 24304
-    - m_Data: 24306
-    - m_Data: 24308
-    - m_Data: 24310
-    - m_Data: 24312
-    - m_Data: 24314
-    - m_Data: 24318
-    - m_Data: 24934
-    - m_Data: 25356
+    - m_Data: 23802
+    - m_Data: 23804
+    - m_Data: 23806
+    - m_Data: 23808
+    - m_Data: 23810
+    - m_Data: 23812
+    - m_Data: 23814
+    - m_Data: 23816
+    - m_Data: 23818
+    - m_Data: 23820
+    - m_Data: 23822
+    - m_Data: 23824
+    - m_Data: 23926
+    - m_Data: 23930
+    - m_Data: 23954
+    - m_Data: 24354
+    - m_Data: 24380
+    - m_Data: 24384
+    - m_Data: 24388
+    - m_Data: 25300
+    - m_Data: 25302
+    - m_Data: 25310
+    - m_Data: 25344
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Environment_Parts
+      m_OriginalName: Environment_Parts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -770,10 +779,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 24352
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -791,19 +800,18 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 24294
-    - m_Data: 24296
-    - m_Data: 24298
-    - m_Data: 24300
-    - m_Data: 24302
-    - m_Data: 24304
-    - m_Data: 24306
-    - m_Data: 24308
-    - m_Data: 24310
-    - m_Data: 24312
-    - m_Data: 24314
-    - m_Data: 24316
-    - m_Data: 24318
+    - m_Data: 23802
+    - m_Data: 23804
+    - m_Data: 23806
+    - m_Data: 23808
+    - m_Data: 23810
+    - m_Data: 23812
+    - m_Data: 23814
+    - m_Data: 23816
+    - m_Data: 23818
+    - m_Data: 23820
+    - m_Data: 23822
+    - m_Data: 23824
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -830,8 +838,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 25910
+    m_LastClickedInstanceID: 25910
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 24316
@@ -959,16 +968,24 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 25910
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 25910
       m_ExpandedIDs:
-      - m_Data: -8454
+      - m_Data: -10934
+      - m_Data: -9384
+      - m_Data: -9226
+      - m_Data: -8670
+      - m_Data: -7000
+      - m_Data: -3550
+      - m_Data: -2018
+      - m_Data: -1978
       - m_Data: -1322
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Main Camera
+        m_OriginalName: Main Camera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -976,10 +993,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 0
+          m_Data: 25910
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 4}
@@ -1395,7 +1412,7 @@ MonoBehaviour:
       scrollOffset: 0
     m_DynamicPanelContainerData:
     - containerId: overlay-dynamic-panel--left
-      width: 330
+      width: 329.2
       saveData:
         state: 0
         overlayData: []
@@ -1417,9 +1434,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -5.046317, y: -9.998492, z: 2.210263}
+    m_Target: {x: 33.191475, y: 1.9068842, z: 1.4023695}
     speed: 2
-    m_Value: {x: -5.046317, y: -9.998492, z: 2.210263}
+    m_Value: {x: 33.191475, y: 1.9068842, z: 1.4023695}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1465,20 +1482,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.30695653, y: 0.005145511, z: -0.001660432, w: -0.9517083}
+    m_Target: {x: -0.05909265, y: 0.93286806, z: -0.17989087, w: -0.30644292}
     speed: 2
-    m_Value: {x: -0.3069565, y: 0.0051455107, z: -0.0016604317, w: -0.9517082}
+    m_Value: {x: -0.05909257, y: 0.9328668, z: -0.17989063, w: -0.30644253}
   m_Size:
-    m_Target: 15.287994
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 15.287994
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.06047
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1576,7 +1593,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
