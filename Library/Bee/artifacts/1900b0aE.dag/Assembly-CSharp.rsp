@@ -410,6 +410,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Class10th (Sound System)/Scripts/Audio Manager.cs"
 "Assets/Class10th (Sound System)/Scripts/Interaction.cs"
 "Assets/Class2th (Script)/Scenes/Exceution.cs"
 "Assets/Class2th (Script)/Scenes/NewMonoBehaviourScript.cs"

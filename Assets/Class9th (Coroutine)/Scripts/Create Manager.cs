@@ -1,14 +1,18 @@
 using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
 public class CreateManager : MonoBehaviour
 {
+    [SerializeField] float offset = 1.5f;
     [SerializeField] GameObject elemental;
 
-   // [SerializeField] List<GameObject> list;
-    [SerializeField] float offset = 1.5f;
+    [SerializeField] List<GameObject> list;
+    [SerializeField] WaitForSeconds waitForSeconds = new WaitForSeconds(5.0f);
+
+    [SerializeField] float time;
     [SerializeField] int count;
 
     void Start()
@@ -21,21 +25,21 @@ public class CreateManager : MonoBehaviour
 
             clone.SetActive(false);
 
-   //         list.Add(clone);
+            list.Add(clone);
         }
 
-   //    StartCoroutine(Coroutine());
+       StartCoroutine(Coroutine());
 
     }
 
- //   IEnumerator Coroutine()
- //   {
-  //      while (count < List.Count)
-  //      {
-  //          List[count++].SetActive(true);
+    IEnumerator Coroutine()
+    {
+        while (count < list.Count)
+        {
+            list[count++].SetActive(true);
 
-  //          yield return waitForSeconds;
+           yield return waitForSeconds;
 
- //       }
- //   }
+        }
+    }
 }
