@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.15f1 (c1aa84e375f6) revision 12692100'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-06-05T12:38:44.0396368Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-06-08T11:00:29.7825587Z"
 OS: 'Windows 10  (10.0.19042) 64bit Core' Language: 'ko' Physical Memory: 32600 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-06-05T12:38:44Z
+Date: 2026-06-08T11:00:29Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.15f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Administrator/Desktop/Game-Engine
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59770
+60218
 -licensingIpc
 LicenseClient-Admin
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Users/Administrator/Desktop/Game-Engine
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [7312]  Target information:
+Player connection [25664]  Target information:
 
-Player connection [7312]  * "[IP] 192.168.75.186 [Port] 0 [Flags] 2 [Guid] 2168315741 [EditorId] 2168315741 [Version] 1048832 [Id] WindowsEditor(7,Admin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25664]  * "[IP] 192.168.75.186 [Port] 0 [Flags] 2 [Guid] 1710988931 [EditorId] 1710988931 [Version] 1048832 [Id] WindowsEditor(7,Admin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7312] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7312] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25664] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25664] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -100,7 +100,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -110,18 +110,18 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Admin"
 [Licensing::IpcConnector] LicenseClient-Admin channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-6000.3.15" at "2026-06-05T12:38:45.1334093Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16072, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-6000.3.15" at "2026-06-08T11:00:30.9892134Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 12692, path: "C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              4f41341ce9984a0c83ee6a7702373222
-  Correlation Id:          294842164801fdca20ec0d1b8fa12d44
-  External correlation Id: 670640482925430087
+  Session Id:              4607b5037dd54a19a7b39e1c5d202329
+  Correlation Id:          e6a91011c7bb34273efafffbc54b7846
+  External correlation Id: 1765405568493706920
   Machine Id:              yTEWFmjPiEp4Sbu34Ix7hwDveoU=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin-6000.3.15" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-6000.3.15-notifications" at "2026-06-05T12:38:45.1403011Z"
-[Licensing::Module] Licensing Background thread has ended after 1.10s
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-6000.3.15-notifications" at "2026-06-08T11:00:30.9970503Z"
+[Licensing::Module] Licensing Background thread has ended after 1.21s
 [Licensing::Module] Licensing is initialized (took 0.32s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -130,8 +130,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.324202 seconds.
-- Loaded All Assemblies, in  0.756 seconds
+Registered in 0.320027 seconds.
+- Loaded All Assemblies, in  0.777 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -143,35 +143,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.374 seconds
-Domain Reload Profiling: 1128ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.397 seconds
+Domain Reload Profiling: 1171ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (368ms)
-	LoadAllAssembliesAndSetupDomain (171ms)
-		LoadAssemblies (160ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (369ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (174ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (166ms)
-				TypeCache.ScanAssembly (152ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (149ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (375ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (397ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (340ms)
+		SetupLoadedEditorAssemblies (360ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (58ms)
+			InitializePlatformSupportModulesInManaged (61ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (132ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -181,7 +181,7 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.441 seconds
+- Loaded All Assemblies, in  0.436 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for iOS target not found
 Native extension for WindowsStandalone target not found
@@ -190,118 +190,238 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.415 seconds
-Domain Reload Profiling: 853ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  0.377 seconds
+Domain Reload Profiling: 809ms
+	BeginReloadAssembly (197ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (39ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (152ms)
-		LoadAssemblies (236ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (228ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (29ms)
-				TypeCache.ScanAssembly (20ms)
-			BuildScriptInfoCaches (8ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (416ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (16ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (377ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (293ms)
+		SetupLoadedEditorAssemblies (275ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 863 unused Assets / (386.9 KB). Loaded Objects now: 1465.
+Unloading 863 unused Assets / (394.5 KB). Loaded Objects now: 1465.
 Memory consumption went from 76.7 MB to 76.3 MB.
-Total: 5.749300 ms (FindLiveObjects: 0.396800 ms CreateObjectMapping: 0.104800 ms MarkObjects: 4.846000 ms  DeleteObjects: 0.400300 ms)
+Total: 5.827600 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.064300 ms MarkObjects: 5.211500 ms  DeleteObjects: 0.399800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1641362.957451 seconds.
+  Time since last request: 1894668.417469 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Desk_01.fbx
+  artifactKey: Guid(04a1b4d313b98024d9e51cb9b4cc30d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Desk_01.fbx using Guid(04a1b4d313b98024d9e51cb9b4cc30d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e5ffb318f60dd256caf87cf94931136') in 0.2001675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models
+  artifactKey: Guid(9eb3a94051adbf545a6cd2b90a892a4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models using Guid(9eb3a94051adbf545a6cd2b90a892a4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4826cb17880516e92ee59288f2f3f7dd') in 0.0040584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Alien_01.fbx
+  artifactKey: Guid(342a61901d3db8046953c8b45ab99b65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Alien_01.fbx using Guid(342a61901d3db8046953c8b45ab99b65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fc3908c70a1b0352fdab9c2cfa6db15') in 0.0127507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
   path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Alien_01_C.fbx
-  artifactKey: Guid(851c04eb69a60d740b2221a5b65aa79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Alien_01_C.fbx using Guid(851c04eb69a60d740b2221a5b65aa79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df4002d923ea345733be83d58a296710') in 0.1967118 seconds
+  artifactKey: Guid(851c04eb69a60d740b2221a5b65aa79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Alien_01_C.fbx using Guid(851c04eb69a60d740b2221a5b65aa79d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c7592d807e97ee5e835ceecf1762e2b') in 0.0195037 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Notebook_C.fbx
-  artifactKey: Guid(4b3b12d30fc5bc040946833458319875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Notebook_C.fbx using Guid(4b3b12d30fc5bc040946833458319875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38c11efbf89a040bc204cc3b3bd9fa98') in 0.0190237 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Notebook.fbx
+  artifactKey: Guid(03e0d077878a7024c92cf0bbf2ece234) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Notebook.fbx using Guid(03e0d077878a7024c92cf0bbf2ece234) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e39b34b2b972dfd91e595b73e3345485') in 0.0136206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Capsule_01_C.fbx
+  artifactKey: Guid(1bca653759f97ef40841dc310e37a38b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Capsule_01_C.fbx using Guid(1bca653759f97ef40841dc310e37a38b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f19733352b4f4151262165f2702d8924') in 0.0106214 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Materials/Cosmic_Retro.mat
-  artifactKey: Guid(21f0d8e392689564a96d25c9d8ad581c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Materials/Cosmic_Retro.mat using Guid(21f0d8e392689564a96d25c9d8ad581c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11cfe4f97b173cbede5a04d8d0362c82') in 0.0625492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Textures/Cosmic_Retro_Albedo.png
+  artifactKey: Guid(e20485e1c5378964cb13c426352547b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Textures/Cosmic_Retro_Albedo.png using Guid(e20485e1c5378964cb13c426352547b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fee287633ac0856ff91733cba4f541fb') in 0.058982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Desk_01_C.fbx
-  artifactKey: Guid(157d7873fd5555a41b64f536108903ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Desk_01_C.fbx using Guid(157d7873fd5555a41b64f536108903ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d42aea15601e6afdd242546c39045ed') in 0.0145377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  path: Assets/Class11th (Light)/Scenes/Class11th (Light).unity
+  artifactKey: Guid(82dab93a4c366394bac1ef9672843bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Scenes/Class11th (Light).unity using Guid(82dab93a4c366394bac1ef9672843bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd087eb039b4cedcaf1274e7d639c2299') in 0.0056077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Stool_C.fbx
-  artifactKey: Guid(3f772730d936c774d9a84cbece8fcc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Colliders/CR_Lab2_Stool_C.fbx using Guid(3f772730d936c774d9a84cbece8fcc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8bc909fde7edef8003308fa1b50a67c') in 0.0147808 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.178571 seconds.
-  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Alien_01.fbx
-  artifactKey: Guid(342a61901d3db8046953c8b45ab99b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Alien_01.fbx using Guid(342a61901d3db8046953c8b45ab99b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4102cb1b0b3491f82c4ee656327bec4') in 0.0103744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Stool.fbx
-  artifactKey: Guid(b0af0506917403243a4e585cd3519a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Stool.fbx using Guid(b0af0506917403243a4e585cd3519a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c2ce0561ba2b64e6fb656b0e4dbfaae') in 0.0087078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Environment_Parts/CR_Lab_2_Floor_01.fbx
+  artifactKey: Guid(2862c53ad998e774eb54ff282cac481a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Environment_Parts/CR_Lab_2_Floor_01.fbx using Guid(2862c53ad998e774eb54ff282cac481a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e02f1f98128248777683303dfb79f36') in 0.0185895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Environment_Parts/CR_Lab_2_Wall_1U.prefab
+  artifactKey: Guid(8ee16fb0986227143a18d09d0b5f2563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Environment_Parts/CR_Lab_2_Wall_1U.prefab using Guid(8ee16fb0986227143a18d09d0b5f2563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '481b7bd7030d3ca5eac9d594c5c4047b') in 0.0188721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Props/CR_Lab2_Microscope.prefab
+  artifactKey: Guid(e96e8ef7c68fab548adbeb70a9d4bf68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Props/CR_Lab2_Microscope.prefab using Guid(e96e8ef7c68fab548adbeb70a9d4bf68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97284828a12fff718f1e5a9b2faca411') in 0.0126269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
   path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Microscope.fbx
-  artifactKey: Guid(ea6df91cc741bad42acb126ef79df49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Microscope.fbx using Guid(ea6df91cc741bad42acb126ef79df49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd67edd180ece22a255098eb0f899af63') in 0.0081949 seconds
+  artifactKey: Guid(ea6df91cc741bad42acb126ef79df49e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Microscope.fbx using Guid(ea6df91cc741bad42acb126ef79df49e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3b504f7167c1c55cf9804b56983794d') in 0.0092717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.763340 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Textures/Cosmic_Retro_Emissive.png
+  artifactKey: Guid(0c2a233702b1dde48aa7d7b0b9f650ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Textures/Cosmic_Retro_Emissive.png using Guid(0c2a233702b1dde48aa7d7b0b9f650ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11a9f3eafae7a03618ff00e51d547369') in 0.052325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.848959 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Materials/Cosmic_Retro_Opacity.mat
+  artifactKey: Guid(87ff32409cb728c41b36bc92b3441deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Materials/Cosmic_Retro_Opacity.mat using Guid(87ff32409cb728c41b36bc92b3441deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '382ef7feea6a223934153839660b822f') in 0.0450043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.746284 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Props/CR_Lab2_Capsule_01.prefab
+  artifactKey: Guid(80af588e3fb39de4fa5180d5aed4b883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Props/CR_Lab2_Capsule_01.prefab using Guid(80af588e3fb39de4fa5180d5aed4b883) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e04e3997659185f716985f291f554b9') in 0.0272063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Props/CR_Lab2_Notebook.prefab
+  artifactKey: Guid(4ec65026fe16c864faf528345c08d0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Props/CR_Lab2_Notebook.prefab using Guid(4ec65026fe16c864faf528345c08d0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09938443dacc94f136b95e7e3f097438') in 0.0288831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Props/CR_Lab2_Stool.prefab
+  artifactKey: Guid(1a0d2020f80bd7841a7f0f91441bee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Props/CR_Lab2_Stool.prefab using Guid(1a0d2020f80bd7841a7f0f91441bee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e13afcd7709463ba0bd95ce1af3596fd') in 0.0074966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.377924 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Environment_Parts/CR_Lab_2_Wall_1U.prefab
+  artifactKey: Guid(8ee16fb0986227143a18d09d0b5f2563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Prefabs/Environment_Parts/CR_Lab_2_Wall_1U.prefab using Guid(8ee16fb0986227143a18d09d0b5f2563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '043528a41f15638fa9ef44d031d3518d') in 0.0060926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.517344 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Capsule_01.fbx
+  artifactKey: Guid(9be11c14146b07a49b0805212185fd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Capsule_01.fbx using Guid(9be11c14146b07a49b0805212185fd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37c81c241fecb7356b998e794041d9b3') in 0.0417737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Desk_01.fbx
+  artifactKey: Guid(04a1b4d313b98024d9e51cb9b4cc30d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Desk_01.fbx using Guid(04a1b4d313b98024d9e51cb9b4cc30d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4f8a24873b8961fa78f9378db5f67a9') in 0.0124485 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Desk_01.fbx
-  artifactKey: Guid(04a1b4d313b98024d9e51cb9b4cc30d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Props/CR_Lab2_Desk_01.fbx using Guid(04a1b4d313b98024d9e51cb9b4cc30d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc65f92abf0096b10a0dcd2f76bb8523') in 0.0091658 seconds
+  Time since last request: 1.942408 seconds.
+  path: Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Environment_Parts/CR_Lab_2_Wall_1U.fbx
+  artifactKey: Guid(6df6b98e5040e8d4fb9d5c7952996fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Cosmic_Retro_Laboratory_2_Demo/Models/Environment_Parts/CR_Lab_2_Wall_1U.fbx using Guid(6df6b98e5040e8d4fb9d5c7952996fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11469f592dac93993078d408619856cf') in 0.010551 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 939.221714 seconds.
+  path: Assets/Class11th (Light)/Scenes/Class11th (Light)/Lightmap-0_comp_light.exr
+  artifactKey: Guid(4d4f6d9e6c6f96d409718869aa939b85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Scenes/Class11th (Light)/Lightmap-0_comp_light.exr using Guid(4d4f6d9e6c6f96d409718869aa939b85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '597ec866d2907ae92db302d1adf6fb23') in 0.0073209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005908 seconds.
+  path: Assets/Class11th (Light)/Scenes/Class11th (Light)/ReflectionProbe-0.exr
+  artifactKey: Guid(97dd4930dce893c4faa2948b995bf561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Class11th (Light)/Scenes/Class11th (Light)/ReflectionProbe-0.exr using Guid(97dd4930dce893c4faa2948b995bf561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddd553c9252324cf1384fbd3de97abad') in 0.0099131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.423917 seconds.
+  path: Assets/Class11th (Light)/Scenes/Class11th (Light)/Lightmap-0_comp_light.exr
+  artifactKey: Guid(4d4f6d9e6c6f96d409718869aa939b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Light)/Scenes/Class11th (Light)/Lightmap-0_comp_light.exr using Guid(4d4f6d9e6c6f96d409718869aa939b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c581296135977b6ff747637129914476') in 0.0318737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
